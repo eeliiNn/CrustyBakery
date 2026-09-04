@@ -2,19 +2,19 @@
 <table>
     <tr>
         <td width="40%">
-            <p>Sistema de gestión para una pastelería orientado a la administración de productos, clientes, pedidos y ventas, acompañado de una aplicación móvil para que los clientes puedan consultar el catálogo y realizar pedidos.</p>
+            <p>Sistema de gestión para una pastelería orientado a la administración de productos, clientes, pedidos y ventas, acompañado de una aplicación móvil para que los clientes puedan consultar el catálogo y realizar pedidos. <br>
+            ## Descripción
+
+**CrustyBakery – Pastelería y Repostería** es un proyecto de software desarrollado para digitalizar y mejorar la gestión de una pastelería dedicada a la elaboración y venta de pasteles personalizados, cupcakes, galletas y diferentes tipos de postres. <br>
+
+Actualmente, la gestión de pedidos puede realizarse de manera presencial o mediante mensajes, utilizando registros manuales. Esto puede dificultar el control de productos, clientes y pedidos.
+</p>
         </td>
         <td width="60%" align="center">
             <img src="Image/logo.png" width="450"/>
             </td>
     </tr>
     </table>
-
-## Descripción
-
-**CrustyBakery – Pastelería y Repostería** es un proyecto de software desarrollado para digitalizar y mejorar la gestión de una pastelería dedicada a la elaboración y venta de pasteles personalizados, cupcakes, galletas y diferentes tipos de postres.
-
-Actualmente, la gestión de pedidos puede realizarse de manera presencial o mediante mensajes, utilizando registros manuales. Esto puede dificultar el control de productos, clientes y pedidos.
 
 El sistema busca centralizar esta información y facilitar tanto la administración del negocio como la interacción con los clientes.
 
