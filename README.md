@@ -1,6 +1,6 @@
 # CrustyBakery – Pastelería y Repostería
 
-<img src="image/logo.png" width="450"/>
+<img src="Image/logo.png" width="450"/>
 
 Sistema de gestión para una pastelería orientado a la administración de productos, clientes, pedidos y ventas, acompañado de una aplicación móvil para que los clientes puedan consultar el catálogo y realizar pedidos.
 
