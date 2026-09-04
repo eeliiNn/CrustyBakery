@@ -141,6 +141,52 @@ namespace crustyBakeryAPI.Controllers
             return NoContent();
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult> Login([FromBody] LoginDto dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var cliente = await _context.Clientes
+                .FirstOrDefaultAsync(c => c.Correo == dto.Correo);
+
+            if (cliente == null)
+            {
+                return Unauthorized(new
+                {
+                    success = false,
+                    message = "Correo o contraseña incorrectos."
+                });
+            }
+
+            var passwordHash = HashPassword(dto.Contrasena);
+
+            if (cliente.Contrasena != passwordHash)
+            {
+                return Unauthorized(new
+                {
+                    success = false,
+                    message = "Correo o contraseña incorrectos."
+                });
+            }
+
+            if (!cliente.Activo)
+            {
+                return Unauthorized(new
+                {
+                    success = false,
+                    message = "La cuenta del cliente está inactiva."
+                });
+            }
+
+            return Ok(new
+            {
+                success = true,
+                message = "Inicio de sesión exitoso.",
+                cliente = MapToDto(cliente)
+            });
+        }
+
         private static ClienteDto MapToDto(Cliente c) => new()
         {
             IdCliente = c.IdCliente,
