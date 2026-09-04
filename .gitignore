@@ -1,26 +1,31 @@
-# Visual Studio
+# =========================
+# Visual Studio / .NET
+# =========================
 .vs/
+**/bin/
+**/obj/
 *.user
 *.suo
 
-# .NET
-bin/
-obj/
+# =========================
+# Android Studio / Gradle
+# =========================
+**/.gradle/
+**/.idea/
+**/build/
+*.iml
 
-# Build
-[Bb]in/
-[Oo]bj/
+# Archivos locales de Android
+**/local.properties
+**/location.properties
 
-# Visual Studio Code
+# =========================
+# VS Code
+# =========================
 .vscode/
 
-# Logs
-*.log
-
-# NuGet
-packages/
-
-# OS
+# =========================
+# Sistema operativo
+# =========================
 .DS_Store
 Thumbs.db
-
