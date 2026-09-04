@@ -25,7 +25,3 @@ La app maneja 3 roles, tomados del campo `rol` del `UsuarioDto`:
 | ADMIN      | Todo: categorias, productos, clientes, pedidos, ventas, usuarios |
 | VENDEDOR   | Clientes, pedidos, ventas                                       |
 | REPOSTERO  | Categorias, productos                                            |
-
-  lo minimo en `AuthApiClient`. Para produccion conviene agregar un
-  `@ControllerAdvice` que traduzca `RestClientResponseException` en paginas de error
-  amigables.
