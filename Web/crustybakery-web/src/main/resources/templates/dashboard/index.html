@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Dashboard')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <h1>Panel principal</h1>
+
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Pedidos totales</h3>
+                <p th:text="${resumen.totalPedidos}">0</p>
+            </div>
+            <div class="card">
+                <h3>Pedidos pendientes</h3>
+                <p th:text="${resumen.pedidosPendientes}">0</p>
+            </div>
+            <div class="card">
+                <h3>Ventas totales</h3>
+                <p th:text="${resumen.ventasTotales}">0.00</p>
+            </div>
+            <div class="card">
+                <h3>Productos</h3>
+                <p th:text="${resumen.totalProductos}">0</p>
+            </div>
+            <div class="card">
+                <h3>Clientes</h3>
+                <p th:text="${resumen.totalClientes}">0</p>
+            </div>
+        </div>
+
+        <h2>Ultimos pedidos</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Cliente</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="pedido : ${resumen.ultimosPedidos}">
+                    <td th:text="${pedido.id}"></td>
+                    <td th:text="${pedido.clienteNombre}"></td>
+                    <td th:text="${pedido.fechaPedido}"></td>
+                    <td th:text="${pedido.estado}"></td>
+                    <td th:text="${pedido.total}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

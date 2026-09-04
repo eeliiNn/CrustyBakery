@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\data\\crustybakerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|solutionrelative:crustybakeryapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C3E7F46-6217-4EDD-8C0D-6DA67AD0A65A}|crustyBakeryAPI\\crustyBakeryAPI.csproj|c:\\users\\navid\\source\\repos\\crustybakeryapi\\crustybakeryapi\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +70,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T05:23:43.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T05:23:17.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Program.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwBcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T01:18:45.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\DTOs\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\LoginResponseDTO.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\DTOs\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T04:52:48.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Cliente.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T01:40:26.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAgwJ4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T00:42:49.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Pago.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Pago.cs",
@@ -78,21 +155,19 @@
               "RelativeToolTip": "crustyBakeryAPI\\Models\\Pago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:41:06.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:41:06.886Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Usuario.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCEAAAArAAAAAAAAAA==",
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Producto.cs",
+              "RelativeToolTip": "crustyBakeryAPI\\Models\\Producto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:41:18.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:41:13.54Z"
             },
             {
               "$type": "Document",
@@ -102,14 +177,13 @@
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Enums.cs",
               "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Enums.cs",
               "RelativeToolTip": "crustyBakeryAPI\\Models\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:40:56.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:40:56.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Categoria.cs",
@@ -117,77 +191,11 @@
               "RelativeToolTip": "crustyBakeryAPI\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:39:53.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:39:53.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Cliente.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:40:26.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T00:42:49.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Program.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Program.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:18:45.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Producto.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\Models\\Producto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:41:13.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioDtos.cs",
-              "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\UsuarioDtos.cs",
-              "RelativeDocumentMoniker": "crustyBakeryAPI\\DTOs\\UsuarioDtos.cs",
-              "ToolTip": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\DTOs\\UsuarioDtos.cs",
-              "RelativeToolTip": "crustyBakeryAPI\\DTOs\\UsuarioDtos.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA6wDUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T02:12:11.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Controllers\\ProductosController.cs",
@@ -195,12 +203,11 @@
               "RelativeToolTip": "crustyBakeryAPI\\Controllers\\ProductosController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAYwGAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:47:15.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:47:15.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CrustyBakeryContext.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Data\\CrustyBakeryContext.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Data\\CrustyBakeryContext.cs",
@@ -208,12 +215,11 @@
               "RelativeToolTip": "crustyBakeryAPI\\Data\\CrustyBakeryContext.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAAAKEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:12:40.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:12:40.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DetallePedido.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\DetallePedido.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\DetallePedido.cs",
@@ -221,12 +227,11 @@
               "RelativeToolTip": "crustyBakeryAPI\\Models\\DetallePedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:40:46.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:40:46.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\Models\\Pedido.cs",
@@ -234,12 +239,11 @@
               "RelativeToolTip": "crustyBakeryAPI\\Models\\Pedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T01:40:59.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:40:59.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\appsettings.json",
               "RelativeDocumentMoniker": "crustyBakeryAPI\\appsettings.json",
@@ -247,8 +251,7 @@
               "RelativeToolTip": "crustyBakeryAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-04T01:19:24.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-04T01:19:24.419Z"
             }
           ]
         }

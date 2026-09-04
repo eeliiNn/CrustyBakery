@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Ventas')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <h1>Ventas</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Pedido</th>
+                    <th>Cliente</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="venta : ${ventas}">
+                    <td th:text="${venta.id}"></td>
+                    <td th:text="${venta.clienteNombre}"></td>
+                    <td th:text="${venta.fechaPedido}"></td>
+                    <td><span class="badge" th:text="${venta.estado}"></span></td>
+                    <td th:text="${venta.total}"></td>
+                    <td class="acciones">
+                        <a th:href="@{/pedidos/{id}(id=${venta.id})}" class="btn btn-sm">Ver pedido</a>
+                        <a th:href="@{/ventas/{id}/pagos(id=${venta.id})}" class="btn btn-sm">Pagos</a>
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(ventas)}">
+                    <td colspan="6">No hay ventas registradas.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

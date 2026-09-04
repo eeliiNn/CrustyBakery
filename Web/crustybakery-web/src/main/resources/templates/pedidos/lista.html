@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Pedidos')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <div class="page-header">
+            <h1>Pedidos</h1>
+            <a th:href="@{/pedidos/nuevo}" class="btn btn-primary">Nuevo pedido</a>
+        </div>
+
+        <p th:if="${mensaje}" th:text="${mensaje}" class="alert alert-info"></p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Cliente</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="pedido : ${pedidos}">
+                    <td th:text="${pedido.id}"></td>
+                    <td th:text="${pedido.clienteNombre}"></td>
+                    <td th:text="${pedido.fechaPedido}"></td>
+                    <td><span class="badge" th:text="${pedido.estado}"></span></td>
+                    <td th:text="${pedido.total}"></td>
+                    <td class="acciones">
+                        <a th:href="@{/pedidos/{id}(id=${pedido.id})}" class="btn btn-sm">Ver</a>
+                        <form th:action="@{/pedidos/{id}/eliminar(id=${pedido.id})}" method="post"
+                              onsubmit="return confirm('Eliminar este pedido?');" class="inline-form">
+                            <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(pedidos)}">
+                    <td colspan="6">No hay pedidos registrados.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

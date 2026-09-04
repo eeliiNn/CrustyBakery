@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Usuarios')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <div class="page-header">
+            <h1>Usuarios</h1>
+            <a th:href="@{/usuarios/nuevo}" class="btn btn-primary">Nuevo usuario</a>
+        </div>
+
+        <p th:if="${mensaje}" th:text="${mensaje}" class="alert alert-info"></p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Correo</th>
+                    <th>Nombre</th>
+                    <th>Rol</th>
+                    <th>Activo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="usuario : ${usuarios}">
+                    <td th:text="${usuario.id}"></td>
+                    <td th:text="${usuario.correo}"></td>
+                    <td th:text="${usuario.nombre}"></td>
+                    <td th:text="${usuario.rol}"></td>
+                    <td th:text="${usuario.activo} ? 'Si' : 'No'"></td>
+                    <td class="acciones">
+                        <a th:href="@{/usuarios/{id}/editar(id=${usuario.id})}" class="btn btn-sm">Editar</a>
+                        <form th:action="@{/usuarios/{id}/eliminar(id=${usuario.id})}" method="post"
+                              onsubmit="return confirm('Eliminar este usuario?');" class="inline-form">
+                            <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(usuarios)}">
+                    <td colspan="6">No hay usuarios registrados.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

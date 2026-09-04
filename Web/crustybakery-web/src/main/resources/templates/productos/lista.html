@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Productos')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <div class="page-header">
+            <h1>Productos</h1>
+            <a th:href="@{/productos/nuevo}" class="btn btn-primary">Nuevo producto</a>
+        </div>
+
+        <p th:if="${mensaje}" th:text="${mensaje}" class="alert alert-info"></p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Categoria</th>
+                    <th>Precio</th>
+                    <th>Disponible</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="producto : ${productos}">
+                    <td th:text="${producto.id}"></td>
+                    <td th:text="${producto.nombre}"></td>
+                    <td th:text="${producto.categoriaNombre}"></td>
+                    <td th:text="${producto.precio}"></td>
+                    <td th:text="${producto.disponible} ? 'Si' : 'No'"></td>
+                    <td class="acciones">
+                        <a th:href="@{/productos/{id}/editar(id=${producto.id})}" class="btn btn-sm">Editar</a>
+                        <form th:action="@{/productos/{id}/eliminar(id=${producto.id})}" method="post"
+                              onsubmit="return confirm('Eliminar este producto?');" class="inline-form">
+                            <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(productos)}">
+                    <td colspan="6">No hay productos registrados.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

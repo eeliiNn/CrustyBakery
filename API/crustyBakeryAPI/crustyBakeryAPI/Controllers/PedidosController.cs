@@ -4,6 +4,10 @@ using crustyBakeryAPI.Models;
 using crustyBakeryAPI.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using crustyBakeryAPI.Models;
+using crustyBakeryAPI.Models.Enums;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace crustyBakeryAPI.Controllers
 {
@@ -144,6 +148,50 @@ namespace crustyBakeryAPI.Controllers
 
             // El total lo recalcula el trigger de la base de datos (trg_detalle_after_insert);
             // se vuelve a consultar el pedido para devolver el total ya actualizado.
+            var pedidoActualizado = await _context.Pedidos
+                .AsNoTracking()
+                .Include(p => p.Cliente)
+                .Include(p => p.Empleado)
+                .Include(p => p.Repostero)
+                .Include(p => p.Detalles).ThenInclude(d => d.Producto)
+                .FirstAsync(p => p.IdPedido == id);
+
+            return Ok(MapToDto(pedidoActualizado));
+        }
+
+        // DELETE: api/pedidos/5/detalles/3  (quita una línea de producto del pedido)
+        [HttpDelete("{id:int}/detalles/{detalleId:int}")]
+        [ProducesResponseType(typeof(PedidoDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<PedidoDto>> EliminarDetalle(int id, int detalleId)
+        {
+            var pedido = await _context.Pedidos.FindAsync(id);
+            if (pedido == null)
+                return NotFound(new { mensaje = $"No se encontró el pedido con id {id}" });
+
+            if (pedido.Estado != EstadoPedido.PENDIENTE)
+                return BadRequest(new { mensaje = "Solo se pueden quitar productos de un pedido en estado PENDIENTE" });
+
+            var detalle = await _context.DetallesPedido
+                .FirstOrDefaultAsync(d => d.IdDetalle == detalleId && d.IdPedido == id);
+
+            if (detalle == null)
+                return NotFound(new { mensaje = $"No se encontró el detalle {detalleId} en este pedido" });
+
+            try
+            {
+                _context.DetallesPedido.Remove(detalle);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al quitar el detalle {DetalleId} del pedido {Id}", detalleId, id);
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new { mensaje = "Ocurrió un error al quitar el producto del pedido" });
+            }
+
+            // El total lo recalcula el trigger de la base de datos (trg_detalle_after_delete).
             var pedidoActualizado = await _context.Pedidos
                 .AsNoTracking()
                 .Include(p => p.Cliente)

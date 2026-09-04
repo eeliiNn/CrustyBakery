@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Nuevo usuario')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <h1>Nuevo usuario</h1>
+
+        <form th:action="@{/usuarios/guardar}" th:object="${usuario}" method="post" class="form">
+            <div class="form-group">
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" th:field="*{correo}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena">Contrasena</label>
+                <input type="password" id="contrasena" th:field="*{contrasena}" required minlength="8">
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" th:field="*{telefono}">
+            </div>
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" th:field="*{nombre}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="rol">Rol</label>
+                <select id="rol" th:field="*{rol}" required>
+                    <option value="ADMINISTRADOR">ADMINISTRADOR</option>
+                    <option value="EMPLEADO">EMPLEADO</option>
+                    <option value="REPOSTERO">REPOSTERO</option>
+                </select>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Crear usuario</button>
+                <a th:href="@{/usuarios}" class="btn">Cancelar</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

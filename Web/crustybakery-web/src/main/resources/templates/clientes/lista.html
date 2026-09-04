@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Clientes')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <div class="page-header">
+            <h1>Clientes</h1>
+            <a th:href="@{/clientes/nuevo}" class="btn btn-primary">Nuevo cliente</a>
+        </div>
+
+        <p th:if="${mensaje}" th:text="${mensaje}" class="alert alert-info"></p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                    <th>Direccion</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="cliente : ${clientes}">
+                    <td th:text="${cliente.id}"></td>
+                    <td th:text="${cliente.nombre}"></td>
+                    <td th:text="${cliente.correo}"></td>
+                    <td th:text="${cliente.telefono}"></td>
+                    <td th:text="${cliente.direccion}"></td>
+                    <td class="acciones">
+                        <a th:href="@{/clientes/{id}/editar(id=${cliente.id})}" class="btn btn-sm">Editar</a>
+                        <form th:action="@{/clientes/{id}/eliminar(id=${cliente.id})}" method="post"
+                              onsubmit="return confirm('Eliminar este cliente?');" class="inline-form">
+                            <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(clientes)}">
+                    <td colspan="6">No hay clientes registrados.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

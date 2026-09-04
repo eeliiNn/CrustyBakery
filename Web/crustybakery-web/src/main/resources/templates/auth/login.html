@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Iniciar sesion')}"></head>
+<body class="login-body">
+<div class="login-box">
+    <div class="login-brand">
+        <img th:src="@{/images/logo.png}" alt="Crustybakery" class="login-logo">
+        <p class="brand-name">Crustybakery</p>
+    </div>
+
+    <div class="login-form-panel">
+        <h2>LOGIN</h2>
+
+        <p th:if="${error}" th:text="${error}" class="alert alert-error"></p>
+        <p th:if="${logout}" th:text="${logout}" class="alert alert-info"></p>
+
+        <form th:action="@{/auth/login}" method="post">
+            <div class="form-group">
+                <label for="username">Correo electronico</label>
+                <input type="email" id="username" name="username" placeholder="Correo electronico" required autofocus>
+            </div>
+            <div class="form-group">
+                <label for="password">Contrasena</label>
+                <input type="password" id="password" name="password" placeholder="Contrasena" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Cliente')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <h1 th:text="${cliente.id} != null ? 'Editar cliente' : 'Nuevo cliente'"></h1>
+
+        <form th:action="@{/clientes/guardar}" th:object="${cliente}" method="post" class="form">
+            <input type="hidden" th:field="*{id}">
+
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" th:field="*{nombre}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" th:field="*{correo}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena">Contrasena</label>
+                <input type="password" id="contrasena" th:field="*{contrasena}" minlength="8"
+                       placeholder="Solo al crear el cliente">
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" th:field="*{telefono}">
+            </div>
+
+            <div class="form-group">
+                <label for="direccion">Direccion</label>
+                <textarea id="direccion" th:field="*{direccion}" rows="3"></textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a th:href="@{/clientes}" class="btn">Cancelar</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

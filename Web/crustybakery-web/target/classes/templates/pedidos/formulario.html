@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: head('Nuevo pedido')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar :: navbar}"></div>
+    <main class="container">
+        <h1>Nuevo pedido</h1>
+        <p class="hint">Selecciona el cliente para crear el pedido. Los productos se agregan despues, desde el detalle del pedido.</p>
+
+        <form th:action="@{/pedidos/guardar}" th:object="${pedido}" method="post" class="form">
+            <div class="form-group">
+                <label for="clienteId">Cliente</label>
+                <select id="clienteId" th:field="*{clienteId}" required>
+                    <option value="">-- Selecciona --</option>
+                    <option th:each="cliente : ${clientes}"
+                            th:value="${cliente.id}"
+                            th:text="${cliente.nombre} + ' (' + ${cliente.telefono} + ')'"></option>
+                </select>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Crear pedido</button>
+                <a th:href="@{/pedidos}" class="btn">Cancelar</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kxHANyW39GM=",
+  "dgSpecHash": "s9mAndRQCkw=",
   "success": true,
   "projectFilePath": "C:\\Users\\navid\\source\\repos\\crustyBakeryAPI\\crustyBakeryAPI\\crustyBakeryAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\navid\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\navid\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\navid\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\navid\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\navid\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.23\\microsoft.aspnetcore.authentication.jwtbearer.8.0.23.nupkg.sha512",
     "C:\\Users\\navid\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

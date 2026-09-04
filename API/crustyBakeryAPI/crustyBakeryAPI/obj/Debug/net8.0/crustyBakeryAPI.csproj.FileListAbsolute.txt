@@ -145,3 +145,4 @@ C:\Users\navid\source\repos\crustyBakeryAPI\crustyBakeryAPI\obj\Debug\net8.0\ref
 C:\Users\navid\source\repos\crustyBakeryAPI\crustyBakeryAPI\obj\Debug\net8.0\crustyBakeryAPI.pdb
 C:\Users\navid\source\repos\crustyBakeryAPI\crustyBakeryAPI\obj\Debug\net8.0\crustyBakeryAPI.genruntimeconfig.cache
 C:\Users\navid\source\repos\crustyBakeryAPI\crustyBakeryAPI\obj\Debug\net8.0\ref\crustyBakeryAPI.dll
+C:\Users\navid\source\repos\crustyBakeryAPI\crustyBakeryAPI\bin\Debug\net8.0\BCrypt-Net-Next.dll
