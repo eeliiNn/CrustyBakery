@@ -116,5 +116,5 @@ Proyecto desarrollado como parte de un proyecto académico de desarrollo de soft
 
 ---
 
-**Dulce Aroma – Pastelería y Repostería**
+**Crusty Bakery – Pastelería y Repostería**
 Sistema de gestión y digitalización para una pastelería.
